@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<style media="screen">
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #333;
+     color: white;
+     text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <CENTER>
+  <h1><div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+<div id="container">
+  <span id="text1"></span>
+  <span id="text2"></span>
+</div>
+
+<svg id="filters">
+  <defs>
+      <filter id="threshold">
+          <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 255 -140" />
+      </filter>
+  </defs>
+</svg></h1>
+
+<center>
+        <button id="changeColor">EDUCATION<label for="portfolio-names"></label>
+    <select name="portfolio-names" id="portfolio-names">
+        <option value="education"> Education</option>
+        <option value="college">ABES Engineering College</option>
+        <option value="pumpernickel">ST. Thomas College</option>
+    </select>
+    <button1 id="changeColor" class="button1">PROJECTS<label for="portfolio-names"></label>
+    <select name="portfolio-names" id="portfolio-names">
+    <option value="project"> SKIN CANCER DETECTION</option>
+    <option value="use">using TensorFlow in Python</option>
+    </select>
+    <button2 id="changeColor" class="button1">TECHNICAL SKILLS<label for="portfolio-names"></label>
+    <select name="portfolio-names" id="portfolio-names">
+    <option value="SKILL">JAVA </option>
+    <option value="SKILL">C </option>
+    <option value="SKILL">KOTLIN</option>
+    <option value="SKILL">Web Development </option>
+    <option value="SKILL">html </option>
+    <option value="SKILL">css</option>
+    <option value="SKILL">java script</option>
+    <option value="SKILL">using TensorFlow in Python</option>
+    </select>
+
+    </button2>
+    </button1>
+</button>
+
+    <script src="script.js"></script>
+    </center>
+    </center>
+    </header>
+    <div class="footer">
+    <p><center> <h3>INFO:</h3> &#128222; CONTACT:&nbsp;&nbsp; 9473895421 &nbsp;&nbsp;&nbsp;&nbsp; &#128231;
+    GMAIL: &nbsp;&nbsp;bhavyasukrati397@gmail.com</p>
+  </div>
+</body>
+</html>
